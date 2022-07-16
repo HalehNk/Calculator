@@ -42,7 +42,7 @@
 }
 
 .calc-container {
-  background-color: #7776bc;
+  background-color: #6c6c82;
   border-radius: 20px;
   padding: 30px;
   margin-top: 10px;
@@ -54,7 +54,7 @@
   margin: 10px 4px;
   border: none !important;
 }
-.OperatorButton {
+.btn-operator {
   height: 59px;
   width: 59px;
   margin: 10px 4px;
@@ -62,7 +62,20 @@
 }
 .equalButton {
   height: 59px;
-  width: 126px;
+  width: 59px;
+  margin: 10px 4px;
+  border: none !important;
+}
+
+.btn-clear:hover {
+  background-color: #ff816b;
+}
+
+.btn-clear {
+  /* background-color: #fff27e; */
+  background-color: #ff816b;
+  height: 59px;
+  width: 59px;
   margin: 10px 4px;
   border: none !important;
 }
