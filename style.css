@@ -1,0 +1,68 @@
+.heading-primary {
+  margin: 3rem;
+}
+
+.container {
+  margin: 0px;
+}
+
+.entr {
+  width: 265px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 2px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.btn-num:hover {
+  background-color: #cdc7e5;
+}
+
+.btn-equal:hover {
+  background-color: #fefbdb;
+}
+
+.btn-operator:hover {
+  background-color: #feec51;
+}
+
+.btn-num {
+  background-color: #cdc7e5;
+}
+
+.btn-operator {
+  background-color: #feec51;
+}
+
+.btn-equal {
+  background-color: #fefbdb;
+}
+
+.calc-container {
+  background-color: #7776bc;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.numberButton {
+  height: 59px;
+  width: 59px;
+  margin: 10px 4px;
+  border: none !important;
+}
+.OperatorButton {
+  height: 59px;
+  width: 59px;
+  margin: 10px 4px;
+  border: none !important;
+}
+.equalButton {
+  height: 59px;
+  width: 126px;
+  margin: 10px 4px;
+  border: none !important;
+}
