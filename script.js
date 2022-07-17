@@ -3,7 +3,7 @@
 let perviousValue = "";
 let newValue = "";
 let resultValue = "0";
-let operator = "";
+let mathOperator = "";
 
 let enterValue = document.getElementById("enter");
 // enterValue.value = "";
@@ -22,4 +22,14 @@ const numButtonPress = function (num) {
   // enterValue.value = perviousValue;
 
   console.log(num, newValue);
+};
+
+const mathButtonPress = function (operator) {};
+
+const clearButtonPress = function () {
+  perviousValue = "";
+  newValue = "";
+  resultValue = "";
+  mathOperator = "";
+  enterValue.value = "0";
 };
