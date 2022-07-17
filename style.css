@@ -15,9 +15,12 @@
   font-size: 16px;
   font-weight: bold;
   border: none;
+  /* text-align: end; */
 }
 
-.btn-num:hover {
+.btn-num:hover,
+.btn-num:active,
+.btn-num:visited {
   background-color: #cdc7e5;
 }
 
@@ -52,6 +55,7 @@
   height: 59px;
   width: 59px;
   margin: 10px 4px;
+  border-radius: 5px;
   border: none !important;
 }
 .btn-operator {
@@ -59,6 +63,7 @@
   height: 59px;
   width: 59px;
   margin: 10px 4px;
+  border-radius: 5px;
   border: none !important;
 }
 .equalButton {
@@ -66,6 +71,7 @@
   height: 59px;
   width: 59px;
   margin: 10px 4px;
+  border-radius: 5px;
   border: none !important;
 }
 
@@ -75,7 +81,8 @@
 
 .btn-clear {
   /* background-color: #fff27e; */
-  background-color: #ff816b;
+  border-radius: 5px;
+  background-color: #ff7860;
   height: 59px;
   width: 59px;
   margin: 10px 4px;

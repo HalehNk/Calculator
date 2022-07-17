@@ -24,12 +24,39 @@ const numButtonPress = function (num) {
   console.log(num, newValue);
 };
 
-const mathButtonPress = function (operator) {};
+const mathButtonPress = function (operator) {
+  if (!resultValue) {
+    perviousValue = newValue;
+  } else {
+    perviousValue = resultValue;
+  }
+  // if (!operator) {
+  // }
+  newValue = "";
+  mathOperator = operator;
+  resultValue = "0";
+  enterValue.value = "";
+};
+
+const equalButtonPress = function () {
+  perviousValue = parseInt(perviousValue);
+  newValue = parseInt(newValue);
+  if (mathOperator === "+") {
+    resultValue = perviousValue + newValue;
+  } else if (mathOperator === "-") {
+    resultValue = perviousValue - newValue;
+  } else if (mathOperator === "/") {
+    resultValue = perviousValue / newValue;
+  } else if (mathOperator === "*") {
+    resultValue = perviousValue * newValue;
+  }
+  enterValue.value = resultValue;
+};
 
 const clearButtonPress = function () {
   perviousValue = "";
   newValue = "";
-  resultValue = "";
+  resultValue = "0";
   mathOperator = "";
   enterValue.value = "0";
 };
