@@ -1,12 +1,12 @@
 .heading-primary {
-  margin: 3rem;
+  margin: 2rem;
 }
 
 .container {
   margin: 0px;
 }
 
-.entr {
+.enter {
   width: 265px;
   height: 50px;
   border-radius: 10px;
@@ -42,7 +42,7 @@
 }
 
 .calc-container {
-  background-color: #6c6c82;
+  background-color: #7776bc;
   border-radius: 20px;
   padding: 30px;
   margin-top: 10px;
@@ -55,12 +55,14 @@
   border: none !important;
 }
 .btn-operator {
+  font-size: 1.5rem;
   height: 59px;
   width: 59px;
   margin: 10px 4px;
   border: none !important;
 }
 .equalButton {
+  font-size: 1.5rem;
   height: 59px;
   width: 59px;
   margin: 10px 4px;
