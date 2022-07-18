@@ -11,17 +11,17 @@ let enterValue = document.getElementById("enter");
 
 const numButtonPress = function (num) {
   if (resultValue) {
-    newValue = num;
+    newValue = num.toString();
     resultValue = "";
   }
-  // else {
-  //   newValue += num;
-  // }
+  // WHY doesnt this work as string?? BC the number you were giving was integer
+  else {
+    newValue += num;
+  }
 
   enterValue.value = newValue;
-  // enterValue.value = perviousValue;
 
-  console.log(num, newValue);
+  // console.log(num, newValue);
 };
 
 const mathButtonPress = function (operator) {
@@ -30,8 +30,6 @@ const mathButtonPress = function (operator) {
   } else {
     perviousValue = resultValue;
   }
-  // if (!operator) {
-  // }
   newValue = "";
   mathOperator = operator;
   resultValue = "0";
