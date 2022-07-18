@@ -2,8 +2,14 @@
   margin: 2rem;
 }
 
-.container {
-  margin: 0px;
+.calc-container {
+  width: 20rem;
+  height: auto;
+  background-color: #7776bc;
+  border-radius: 20px;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .enter {
@@ -44,37 +50,6 @@
   background-color: #fefbdb;
 }
 
-.calc-container {
-  background-color: #7776bc;
-  border-radius: 20px;
-  padding: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.numberButton {
-  height: 59px;
-  width: 59px;
-  margin: 10px 4px;
-  border-radius: 5px;
-  border: none !important;
-}
-.btn-operator {
-  font-size: 1.5rem;
-  height: 59px;
-  width: 59px;
-  margin: 10px 4px;
-  border-radius: 5px;
-  border: none !important;
-}
-.equalButton {
-  font-size: 1.5rem;
-  height: 59px;
-  width: 59px;
-  margin: 10px 4px;
-  border-radius: 5px;
-  border: none !important;
-}
-
 .btn-clear:hover {
   background-color: #ff816b;
 }
@@ -86,5 +61,31 @@
   height: 59px;
   width: 59px;
   margin: 10px 4px;
+  border: none !important;
+}
+
+.numberButton {
+  height: 59px;
+  width: 59px;
+  margin: 10px 4px;
+  border-radius: 5px;
+  border: none !important;
+}
+
+.btn-operator {
+  font-size: 1.5rem;
+  height: 59px;
+  width: 59px;
+  margin: 10px 4px;
+  border-radius: 5px;
+  border: none !important;
+}
+
+.equalButton {
+  font-size: 1.5rem;
+  height: 59px;
+  width: 59px;
+  margin: 10px 4px;
+  border-radius: 5px;
   border: none !important;
 }
